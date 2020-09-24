@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script async src="script/script.js"></script>
+</head>
+<body>
+<main class="main-content">
+    <section class="background-block">
+        <h1 class="grids">Grids</h1>
+        <p class="premium">premium</p>
+        <a class="limited-link" target="_blank" href="">or limited version</a>
+        <div class="gradient"></div>
+    </section>
+
+    <section class="pay-block">
+
+        <h2 class="title-text">Choose your plan after 3-day free trial</h2>
+
+        <div class="plan-selector">
+
+            <div class="plan-button selected" id="weeklyPlan" onclick="changePlan(false)">
+                <p class="plan-name">Weekly</p>
+                <p class="plan-price">$4,99/week</p>
+                <p class="plan-text">billed weekly</p>
+            </div>
+
+            <div class="plan-button" id="yearPlan" onclick="changePlan(true)">
+                <p class="plan-name">Annually</p>
+                <p class="plan-price">$20,99/year</p>
+                <p class="plan-text">billed annually</p>
+            </div>
+        </div>
+
+        <button class="pay-button">Paywall Button Text</button>
+
+        <div class="terms-block">
+            Recurring billing. Cancel anytime. <br>
+            <b>Terms & Conditions</b> and <b>Privacy Policy</b><br>
+            The subscription will automatically renew unless
+            auto-renew is turned off at least 24 hours before
+            the end of the current period. You can go to your
+            iTunes Account settings to manage your subscription
+            and turn off auto-renew. Your iTunes Account will be
+            charged when the purchase is confirmed. If you subscribe
+            before your free trial ends, the rest of your free trial
+            will be forfeited as soon as your purchase is confirmed.
+            <div class="gradient"></div>
+        </div>
+
+    </section>
+</main>
+
+<div class="safe-area"></div>
+
+</body>
+</html>
